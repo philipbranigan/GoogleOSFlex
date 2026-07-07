@@ -1,0 +1,8 @@
+├── .gitattributes
+├── .gitignore
+├── README.md             # Your architecture notes & hardware specs
+├── crostini/
+│   ├── provision.sh      # An idempotent shell script to apt install your tools
+│   └── aliases.bash      # Custom bash aliases for the Crostini terminal
+└── configs/
+    └── ssh_config        # Safe SSH configurations/forwarding templates

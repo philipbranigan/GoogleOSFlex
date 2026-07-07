@@ -1,0 +1,7 @@
+# Force all shell scripts to use LF line endings on check-out
+*.sh text eol=lf
+*.bash text eol=lf
+*rc text eol=lf
+
+# Handle standard text files normally
+*.md text
